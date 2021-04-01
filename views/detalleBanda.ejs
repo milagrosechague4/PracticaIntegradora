@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel='stylesheet' href='/stylesheets/detalle.css' />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="totalbands">
+
+        <div class="eachband">
+            
+            <img src="/images/3.jpg"alt="">
+            <div class="data">
+                <h1> <%=bandasArray[id].nombre%></h1>
+                <h4 class="integrantes">Integrantes: <%=bandasArray[id].integrantes%></h4>
+                <a href="/bandas/generos/<%=bandasArray[id].genero%>"><h4 class="genero">Genero musical: <%=bandasarray[id].genero%></h4></a>
+                <h4 class="topCanciones">Top Hits: <%=bandasArray[id].topCanciones%></h4>
+            </div>
+        
+        </div>
+    </div>
+</body>
+
+</html>

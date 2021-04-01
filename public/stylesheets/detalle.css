@@ -1,0 +1,38 @@
+.totalbands{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    text-decoration: none;
+  }
+
+
+  .eachband{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 2EM;
+    box-shadow: 9px 13px 36px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    margin-bottom: 2em;
+  }
+  
+  img{
+    width: 90%;
+  }
+  
+  .data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  h1{
+      margin-bottom: 1em;
+  }
+
+  h4{
+      margin-bottom: 2em;
+  }
